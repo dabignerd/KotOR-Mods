@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------------
+
+v1.1
+
+- Fixed typo. It bothered me.
+- Updated readme for clarification.
+
+--------------------------------------------------------------------------------
+
+v1.2
+
+- Reduced the length of the blade to match the original better. Thanks to
+  Mephiles550 for pointing that out.
+- Adjusted the hilt position. I initially placed it to female hands and male
+  hands would clip through the guard.
+
+--------------------------------------------------------------------------------
+
+v1.3
+
+- Updated blade textures using the After Effects plug-in Saber.
+- Rotated the hilt to match the way it is held in the TV shows. Thanks to
+  JustABitAgroed for pointing that out.
+- Corrected the hilt's normal map. The Y-axis was inverted.
+- Converted all textures to compressed TPC format.
+- Changed installation to TSLPatcher format.
+
+--------------------------------------------------------------------------------
+
+v1.4
+
+- Fixed an issue with the Darksaber being equipped by the NPC meant to drop it,
+  but not dropped. Thanks to Rathic for pointing out this oversight.
+- Adjusted installer to patch .mod file instead of installing to Override where
+  applicable.
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,325 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+» KotOR 1 Restoration 1.2 Read-Me
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+NAME: KotOR 1 Restoration 1.2
+TYPE: Restoration
+VERSION: 1.2
+SIZE - Unzipped: 174 Megabytes, Zipped: 64.4 Megabytes
+DATE RELEASED: May 31, 2016
+KOTOR 1 RESTORATION FORUMS: http://deadlystream.com/forum/forum/31-kotor1-restoration-k1r/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+» DESCRIPTION
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WARNING: IN ALMOST ALL CASES, IT IS RECOMMENDED TO INSTALL THE K1R RESTORATION BEFORE ANY OTHER MODS!!! THE ONLY EXCEPTION SO FAR IS KAINZORUS PRIME'S NPC OVERHAUL...
+
+The KotOR 1 Restoration Mod is an attempt to restore almost all the content that was cut from the game Star Wars: Knights of the Old Republic by BioWare Corp. Of course, these restorations will be within reason and things that were cut because they did not fit with the plot, and cannot be made to fit with the plot, will most definitley NOT be restored.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+» INTEGRATED MODS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+With permission, the following mods (or group of fixes) have been included in K1R 1.2:
+
+- Salk's Dialogue Fixes 2.0 (Fixes various typos in the English version of the game)
+- Kainzorus Prime's Korriban and Manaan Music Fixes (correct music now plays)
+- Red Hessian's Desert Wraid and Shyrack Texture Fix (proper textures)
+- Kexikus' Manaan Quest Endings
+- Kexikus' Fixed Shields (Shields now block the proper damage types)
+- danii-ch's KotOR Bug Fix Attempt 1.0 (Bastila Romance glitch, Calo's soundset, and tweaks/corrections to the Leviathan)
+- All of the fixes from http://web.archive.org/web/*/http://shrines.rpgclassics.com/pc/kotorpc/900.shtml
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+» RESTORED CONTENT
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Most of the content that can be restored has been. This includes content for literally every planet.
+
+- Impossible Difficulty, a cut option for difficulty that is harder than the Vanilla "Hard" difficulty
+- Carth dialogue when the PC first awakens on Taris, Carth makes a few comments about the PC's injuries. (Thanks to zbyl2 for this!)
+- Numerous restorations to the Lower City
+- Numerous restorations to the Under City
+- Restoration of the Black Vulkar Base Sublevel
+- Restored Droid Items
+- Restoration of some dialgoue with Niklos in the Uppper City Cantina
+- Restoration of the Duel Ring announcer in the Taris Upper City Cantina. The announcer will be available to speak to in between fights.
+- Zaerdra Swoop Platform Dialogue, Zaerdra will make some final comments to the PC on the prototype accelerator before intitiating your first run with it
+- Sith Base, numerous restorations
+- Sarna and Yun Genda are available to talk to members of the same sex and can be used to further the plot of Taris. Albeit, in different ways than they normally do.
+- Iriaz Restoration, returns the Iriaz to the plains of Dantooine. (Thanks to Seamhiann for this!)
+- Garrum and Tar'eelok Restoration, returns a cut padawan and master to the Jedi Enclave. (Thanks to Seamhiann for this!)
+- Restoration of cut items within the Jedi Enclave
+- Shen and Rahashia Indecent Proposal, the PC can make a rather indecent, and awkward, proposal to either Shen or Rahasia depending upon the PC's gender.
+- The file called plc_glowpudl.utp had the name of "Glowing Puddle" however when placed in game it looked like a blood puddle. The model file and textures have been changed so now the glowing puddle placeable makes a glowing puddle of green liquid. It can be seen in the new module, tar_m03ac, or the swoop platform non-racing version.
+- Modified Iriaz from Seamhiann's modules so there were less of them, they fought against the Kath Hounds, and usually stayed in their small areas.
+- Restored Crattis dialogue to sell lightsaber crystals.
+- A swathe of Jawa-work on Tatooine.
+- Restored dialogue with Bastila's Mother.
+- Restored shape-shifting for Genoharadan Rulan on Kashyyk.
+- Pazaak Tournament on Manaan.
+- Restored Party Dialogue on Sea Floor.
+- Alternate way into Sith Base on Manaan.
+- Funny dialogue with bartender on Korriban.
+- Alternate route on Leviathan.
+- Goodies on Unknown World, including restored Injured Sith Apprentice.
+- Restored Female Dark Side Ending.
+- Restored the True Form of the Sith Armor Quest on Taris
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+» BUG FIXES/CHANGE LOG FOR 1.2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+»» Original game:
+	» Taris:
+	- Item Duplication exploit with Brejik's gear
+	- Dueling exploit to get two of Bendak's Blaster
+	- Zelka's assistant Gurney informs you about selling the serum after you've given it to Zelka
+
+	» Dantooine:
+	- Resolving the Sandral-Matale Feud peacefully would allow you to keep talking to Rahasia and restarting the 	cutscene
+	- Wandering Jedi near the Ebon Hawk forgot to keep walking after they were done talking to you
+
+	» Ebon Hawk:
+	- Infinite DS exploit when you make Sasha leave the ship. Her leaving is now part of the dialog
+	- Originally, Bastila only had three comments on the visions. A line was re-used for a fourth interaction, allowing 	you to see all four visions if you travel between planets before the Leviathan
+
+	» Tatooine:
+	- If you rescued Griff without Mission, Griff would meet you at your ship; Mission would have no clothes on
+
+	» Kashyyyk:
+	- Several bugs related to Bacca's Blade would prevent you from ever obtaining it
+
+	» Manaan:
+	- Bug in the Iridonian Mercenary's dialog would make it seem to freeze, requiring you to hit 1 or 2 to proceed
+	- Elora would confess to Sunry's affair if Bastila or Jolee is present, but you wouldn't get any plot EXP from it
+	- Bug in Ignus the hotel owner's dialog, preventing him from testifying for you if you Force Persuade him
+	- Getting exiled from Manaan would not remove any unfinished quests on the planet
+
+	» Korriban:
+	- Mismatched soundsets for the three Sith that attack you in the Valley of the Sith Lords
+	- Blowing up the pillar in Ajunta Pall's Tomb; you could still interact with objects and permanently glitch out 	whicever party members are with you. Now changed to a dialog instead of an inventory
+	- Having to fight your way out of the Sith Academy would not remove any prestige quests that you would never 	be able to turn in
+
+	» The Leviathan:
+	- Multiple camera angles and lack of gender checks during Saul's interrogation
+
+	» Yavin Station:
+	- Multiple dialog errors when the Trandoshans arrive, causing the dialog to break at several points
+
+	» General stuff:
+	- Bug during Xor's ambush that would prevent Ziagrom and any other messengers from ever spawning, locking 	you out of a unique store and the other party members' quests
+	- Many TLK corrections involving grammar and typos.
+
+»» K1R Bugs:
+	» Taris:
+	- Playing Pazaak with a mechanic in the Vulkar Base would not update the "Pazaak Rules" quest
+	- Bug between Rakghouls and a Sith Patrol in the Sewers, interrupting their dialog
+	- Interaction with Main Level computer in the  Vulkar Base giving a node error
+	- Angry Aqualish in the Vulkar Base Sub-level would have two triggers to his conversation
+	- Vulkar Coward on the Main Level had a blank line with audio
+	- Gamorrean Cleaver had several issues involving description, name, and wielding
+	- Elevator Passcodes and the "One for the Mechanic" quest not disappearing after Taris
+
+	» Dantooine:
+	- Crattis Yukal not mentioning buying crystals
+	- Sharina Fizark's first name was "Cantina" by mistake
+	- Republic Sentries now attack Kath Hounds if they get within range
+
+	» Kashyyyk:
+	- Various issues related to Jolee's extra fight have been fixed; the entire scene was re-done differently
+
+	» Manaan:
+	- You are no longer able to ask Ceeiia or Irog questions until after you beat them; this was to avoid getting 	trapped into playing them again
+
+	» The Leviathan:
+	- All doors involved in all of Major Hurka's cutscenes now close at the right times
+	- Two guards now walk into the Medical Bay properly
+	- Lip-sync corrections all-around with Major Hurka's content
+	- Cutscenes for Major Hurka now play out only once and work properly in all (hopefully) conditions
+	- If you use Major Hurka, you are now able to also see Canderous' comm message like you normally would have
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+» BUG FIXES/CHANGE LOG FOR 1.1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+There weren't too many bugs in KotOR 1, thus there is such a short list.
+
+»» Taris:
+- Retracted the added NPCs in the Lower City (due to them being custom content)
+- Retracted the added NPCs (Caalin and his bodyguards) from the Vulkar Base Sublevel
+(due to them being custom content)
+- Streamlined the Vulkar Base's restored content; should be understandable and easy to follow
+- Fixed the issue with interacting with the Sith Guard beside the elevator into the Lower City
+- Fixed holes in the Sith Armor Quest that would prevent obtaining a second set
+- Fixed issues revolving around Yun Genda and Sarna's dialog about the party
+
+»» Dantooine:
+- Fixed all the Jedi around the Ebon Hawk on Dantooine to keep on walking after talking
+- Fixed Iriaz-Kath Hound relations
+- Restored a Mandalorian Datapad that was previously unobtainable in-game
+- When you recruit Juhani, she should be wearing actual clothing
+- Fixed an occurence where certain dialog options with Shen and Rahasia would cause them to not appear at the Jedi Enclave when the should have
+
+»» Kashyyyk:
+- When you recruit Jolee, he should be wearing actual clothing
+
+»» Korriban:
+- Fixed Juhani's dialog about Korriban's evil so that it could actually be triggered after you found the Star Map
+
+»» Tatooine:
+- Retracted the Jawa confrontation in the Dune Sea
+(due to it being custom content) and instead brought in Jawa Scavengers
+
+»» Manaan:
+- Fixed occurrences and movements of the restored Echani Mercenary and Gonto Yas
+- Restored Gonto Yas at the Manaan Hotel (Go to the hotel after the Pazaak Tourney to see the new dialog)
+- Restored Hukta Jax and his thugs attacking the PC for winning the swoop race
+- Re-arranged and edited Pazaak Tourney dialogs to try to avoid game-breaking errors
+
+»» The Leviathan:
+- Fixed Major Hurka's content running twice
+- You are no longer able to access the spacesuits if Major Hurka is helping you
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+» INSTALLATION
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+An installation which involves the TSL Patcher has been made ready for your use and is the simplest and easiest way to carry out installation.
+
+Alternatively, a secondary installer has been made for convenience. It will not patch the files like the TSL Patcher will, but it should be less of a headache for most users. HOWEVER, IT WILL NEED TO BE INSTALLED BEFORE ANY OTHER MODS!!!
+
+Note: The K1R team is not responsible for any incompatibility issues that may arise from the use of this mod in conjunction with other mods. Also, in order to provide the best feedback for us we recommend that you play K1R with NO other mods installed. 
+
+Note 2: If using the TSL Patcher AND your game is in English, before installing, copy the dialog.tlk file bundled with this package into the KotOR directory. This will give you the grammar and typo fixes to the vanilla text.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+»»»» TSL PATCHER INSTALLATION
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1) Double click K1R_1.2_Installer.exe found in the main directory of the unpacked folder.
+2) Click the button labeled Install Mod.
+3) Click yes to the box that'll pop up... if you wish to proceed with installation.
+4) Watch as all the little file names and progress reports scroll by and wait until the installer is complete.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+» KNOWN BUGS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+There are 2 ways to report bugs:
+1: Post your issues in the Bug Reporting Thread.
+2: PM your issues to Fair Strides at Deadlystream.
+
+TO REPORT THROUGH PM
+
+ 1) Go to DeadlyStream (http://deadlystream.com/) and search for the user Fair Strides ( http://deadlystream.com/forum/user/9107-fair-strides/ )
+2) Send a private message with as much detail as possible of what is occurring in your game. He will likely report back to you within a week.
+
+ To REPORT THROUGH THE BUG THREAD:
+1) Go to the Bug Thread ( http://deadlystream.com/forum/topic/4457-k1r-12-impressions-and-bug-reports-read-me-first/ )
+2) Reply quoting and answering all of the questions as they apply to your issue.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+» VOICE ACTOR
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pazaak Tournament Mandalorians...Zhaboka
+Filters for Zaerdra's lines......Zhaboka
+Filters for sea floor lines......Zhaboka
+
+Thanks Zhaboka. You really brought life to the characters, and those parts would be pretty lame without you.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+» CONTRIBUTORS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ZM90:
+-Restored "Impossible Difficulty" to the game.
+-Restored the majority of Juhani's cut dialog.
+-Restored Sharina Fizark on Dantooine.
+-Restoration of the cut Dantooine lockers.
+-Restoration of the alternate darkside female ending
+-Restoration of a few other surprises so keep a eye out!
+-MANY Fixes and restorations throughout the game
+
+zbyl2:
+-Restoration of Carth dialogue when the PC first awakens on Taris
+-Fixes to Gana Lavin's appearance consistency
+
+Fallen Guardian:
+-Restored Hurka on Leviathan
+-Various edits to Leviathan
+-LOTS of work on Taris
+-Fixed Trask's soundset
+-Restored/Aided in restoration of various Kashyyyk elements
+
+LDR:
+-Restored various items on Unknown World
+-Began restoration of injured sith apprentice (dialogue)
+
+Fair Strides:
+-Finished restoration of injured sith apprentice
+-Secret surprise in Unknown World Temple :D :D :D
+-Pazaak Tournament on Manaan (with advice and aid from ZM90 and advice from LDR and Fallen Guardian)
+-Bug-fixed the Demo, created installer
+-Restored Rulan's Shape-shifting and Wookie Amulet.
+
+Malkior:
+-LOTS of grammar and typo fixes... :D
+
+LiliArch:
+-Various adjustments and fine-tuning of the Taris Lower City
+-Hex-editing models for low-end computers
+-Texture fix for the Scoundrel (Male only?) clothing that I had honestly never noticed until you said something
+
+Seamhiann:
+-Iriaz Restoration
+-Garrum and Tar'eelok Restoration
+-Deadeye Duncan Restoration
+-Echani Mercenary Restoration
+
+Dan Loto:
+-Taris Lower City module, tar_m03aa
+-Taris Lower City module, Dan Loto's permission to edit some things. Namely the citizens will be attacked by the Vulkars and the vulkar scout will no longer have player initiated dialogue but script initiated.
+-Random walk script, real2. File name changed to rw, but all of the coding is Dan Loto's work.
+
+Pra_Villion
+-For the totally AWESOME K1R Launcher!
+
+A BIG thanks to all of you!
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+» TEAM MEMBERS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- ZM90, Team Leader
+
+- Mandalore, Team Member
+
+- Jatku, Team Member
+
+- Fallen Guardian, Team Member
+
+- LDR, Team Member
+
+- Fair Strides, Team Member and main producer of the 1.1 update (and 1.2 update)
+
+- Malkior, Beta Tester
+
+- LiliArch, Beta Tester (though, putting them on a test is more like setting off a permacrete detonator in an apartment... :D )
+
+- GrandmasterArcturus, 1.2 Beta-tester and LPer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+» SPECIAL THANKS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To the tool creators of the community
+
+~ Kotor Tool.....................A VERY special thanks to Fred Tetra
+~ K-GFF GFF Editor/DLGEditor.....tk102
+~ Lipsynch Editor................JDNoa
+~ DeNCS Script Decompiler........JDNoa
+~ AniCAM.........................JDNoa
+~ ERF Editor/TSLPatcher..........stoffe (and later Fair Strides)
+
+And a shoutout for SithRevan (RIP) for beginning the restoration crusade for KotOR 1. :D
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+» REDISTRIBUTION
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The K1R 1.2 OFFICIAL may NOT be redistributed in any way without the explicit permission of the K1R team and the proper credit given.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+» LEGAL
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+THIS MODIFICATION IS PROVIDED AS-IS AND IS NOT SUPPORTED BY BIOWARE CORP/OBSIDIAN ENTERTAINMENT OR LUCASARTS OR ANY LICENSERS/SPONSORS OF THE AFOREMENTIONED COMPANIES. USE OF THIS FILE IS AT YOUR OWN RISK AND THE AFOREMENTIONED COMPANIES OR THE AUTHORS ARE NOT RESPONSIBLE FOR ANY DAMAGE CAUSED TO YOUR COMPUTER FOR THE USAGE OF THIS FILE.

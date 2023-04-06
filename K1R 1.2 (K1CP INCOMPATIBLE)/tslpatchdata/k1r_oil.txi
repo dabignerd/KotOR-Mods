@@ -1,0 +1,5 @@
+envmaptexture CM_Baremetal
+proceduretype cycle
+numx 1
+numy 4
+fps 16

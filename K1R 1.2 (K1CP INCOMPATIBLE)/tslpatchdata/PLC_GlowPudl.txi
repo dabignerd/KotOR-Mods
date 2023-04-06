@@ -1,0 +1,3 @@
+envmaptexture CM_BareMetal
+envmaptexture mycube
+envmaptexture CM_Bright
